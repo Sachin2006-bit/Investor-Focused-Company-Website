@@ -40,22 +40,15 @@ export function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12 lg:mb-0">
-              <motion.button
+              <motion.a
+                href="#products"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="w-full sm:w-auto px-8 py-4 bg-[#0B6B3A] text-white rounded-2xl flex items-center justify-center gap-2 group hover:bg-[#0F8F4E] transition-all shadow-lg"
               >
                 Explore Our Ecosystem
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </motion.button>
-
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="w-full sm:w-auto px-8 py-4 border-2 border-[#0B6B3A] text-[#0B6B3A] rounded-2xl hover:bg-[#F7F9FB] transition-all"
-              >
-                Investor Deck
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
 
