@@ -24,8 +24,8 @@ const products = [
   },
   {
     name: "ManaKart",
-    tagline: "Taking Indian Handmade Products to Global Market",
-    description: "ManaKart is a cross-border eCommerce platform focused on empowering Indian artisans by connecting handcrafted products to global buyers.",
+    tagline: "Taking Indian Commodity products to Global Market",
+    description: "ManaKart is a cross-border eCommerce platform focused on empowering Indian artisans by connecting commodity products to global buyers.",
     image: manakartLogo,
     features: [
       { icon: Globe, text: "Global logistics integration" },
@@ -51,9 +51,9 @@ const products = [
     reverse: false,
   },
   {
-    name: "Bibleway Studios",
+    name: "Linchpin Studio",
     tagline: "Original Biblical Web-Series & Faith-Based OTT Entertainment",
-    description: "Bibleway Studios is building a scalable faith-tech entertainment ecosystem by producing original biblical web-series designed for global OTT distribution. By merging cinematic excellence with digital platform ownership, we aim to create a sustainable faith-based content network serving audiences worldwide. Our long-term vision includes multi-language productions, franchise storytelling, and global streaming partnerships.",
+    description: "Linchpin Studio is building a scalable faith-tech entertainment ecosystem by producing original biblical web-series designed for global OTT distribution. By merging cinematic excellence with digital platform ownership, we aim to create a sustainable faith-based content network serving audiences worldwide. Our long-term vision includes multi-language productions, franchise storytelling, and global streaming partnerships.",
     image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWF0aWMlMjBtb3ZpZSUyMHByb2R1Y3Rpb258ZW58MXx8fHwxNzcxMDQxNzA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     features: [
       { icon: Layers, text: "Original Biblical Web-Series Production" },
@@ -65,7 +65,7 @@ const products = [
     reverse: true,
   },
   {
-    name: "Succession",
+    name: "Succession - A Brand of Manakart",
     tagline: "Old-Money Luxury Apparel & Timeless Craftsmanship",
     description: "Succession is positioned as a high-margin luxury fashion label targeting the global premium apparel market through curated collections rooted in heritage aesthetics and superior craftsmanship. The brand focuses on limited production, elevated pricing strategy, and aspirational storytelling to build long-term brand equity and exclusivity. Our long-term vision includes flagship retail experiences, global e-commerce expansion, and curated luxury collaborations.",
     image: successionLogo,

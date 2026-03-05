@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import babuImg from "@/assets/babu.png";
 import sujayImg from "@/assets/sujay.jpeg";
 import sachinImg from "@/assets/sachin2.jpeg";
+import akshayImg from "@/assets/akshay.jpeg";
 
 const leaders = [
   {
@@ -21,6 +22,12 @@ const leaders = [
     title: "CTO",
     quote: "Engineering excellence at scale, every day.",
     image: sachinImg,
+  },
+  {
+    name: "Akshay",
+    title: "Operations Executive",
+    quote: "Driving operational excellence to power our vision.",
+    image: akshayImg,
   },
 ];
 
@@ -43,7 +50,7 @@ export function Leadership() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {leaders.map((leader, index) => (
             <motion.div
               key={index}

@@ -15,8 +15,8 @@ const services = [
   },
   {
     icon: Box,
-    title: "Product Engineering",
-    description: "End-to-end product development from ideation to deployment and scaling.",
+    title: "Blockchain Technology",
+    description: "Decentralized solutions, smart contracts, and secure ledger integration for transparent business operations.",
   },
   {
     icon: Brain,
@@ -68,13 +68,13 @@ export function Services() {
               onHoverStart={() => setHoveredIndex(index)}
               onHoverEnd={() => setHoveredIndex(null)}
               className={`border-2 rounded-2xl p-8 transition-all ${hoveredIndex === index
-                  ? "border-[#0B6B3A] bg-[#F7F9FB] shadow-xl"
-                  : "border-[#EAEAEA] bg-white hover:shadow-lg"
+                ? "border-[#0B6B3A] bg-[#F7F9FB] shadow-xl"
+                : "border-[#EAEAEA] bg-white hover:shadow-lg"
                 }`}
             >
               <div className={`w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-all ${hoveredIndex === index
-                  ? "bg-[#0B6B3A]"
-                  : "bg-[#F7F9FB]"
+                ? "bg-[#0B6B3A]"
+                : "bg-[#F7F9FB]"
                 }`}>
                 <service.icon className={`w-7 h-7 transition-colors ${hoveredIndex === index ? "text-white" : "text-[#0B6B3A]"
                   }`} />
