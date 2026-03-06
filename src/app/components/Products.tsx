@@ -21,6 +21,7 @@ const products = [
     ],
     highlight: "Faith-Tech Market Opportunity",
     reverse: false,
+    websiteUrl: "https://bibleway-fe.vercel.app/",
   },
   {
     name: "ManaKart",
@@ -35,6 +36,7 @@ const products = [
     ],
     highlight: "Projected GMV Growth",
     reverse: true,
+    websiteUrl: "https://manakart.vercel.app/",
   },
   {
     name: "Mana Coin – Shoppy Finance",
@@ -49,6 +51,7 @@ const products = [
     ],
     highlight: "Blockchain Infrastructure Roadmap",
     reverse: false,
+    websiteUrl: "https://www.msfcoin.com/",
   },
   {
     name: "Linchpin Studio",
@@ -63,6 +66,7 @@ const products = [
     ],
     highlight: "Faith-Based Digital Media",
     reverse: true,
+    websiteUrl: "https://www.msfcoin.com/",
   },
   {
     name: "Succession - A Brand of Manakart",
@@ -77,6 +81,7 @@ const products = [
     ],
     highlight: "Luxury Heritage Fashion",
     reverse: false,
+    websiteUrl: "https://succession.fit/",
   },
 ];
 
@@ -152,14 +157,17 @@ export function Products() {
                     ))}
                   </div>
 
-                  <motion.button
+                  <motion.a
+                    href={product.websiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ x: 5 }}
                     className="inline-flex items-center gap-2 text-[#0B6B3A] group"
                     style={{ fontWeight: 600 }}
                   >
-                    Learn more
+                    View website
                     <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                  </motion.button>
+                  </motion.a>
                 </div>
               </div>
             </motion.div>

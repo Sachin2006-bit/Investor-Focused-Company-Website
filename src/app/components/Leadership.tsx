@@ -6,25 +6,25 @@ import akshayImg from "@/assets/akshay.jpeg";
 
 const leaders = [
   {
-    name: "Babu",
+    name: "Narendra Babu",
     title: "Founder and CEO",
     quote: "Building the future, one innovation at a time.",
     image: babuImg,
   },
   {
-    name: "Sujay",
+    name: "Sujay Kumar",
     title: "Director",
     quote: "Innovation is our language, execution is our strength.",
     image: sujayImg,
   },
   {
-    name: "Sachin",
+    name: "Sachin keerthi vasu",
     title: "CTO",
     quote: "Engineering excellence at scale, every day.",
     image: sachinImg,
   },
   {
-    name: "Akshay",
+    name: "Akshay Nidiginti",
     title: "Operations Executive",
     quote: "Driving operational excellence to power our vision.",
     image: akshayImg,
