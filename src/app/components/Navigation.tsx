@@ -53,7 +53,8 @@ export function Navigation() {
               </motion.a>
             ))}
 
-            <motion.button
+            <motion.a
+              href="#contact"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
@@ -63,7 +64,7 @@ export function Navigation() {
               style={{ fontWeight: 600 }}
             >
               Get Started
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -103,12 +104,14 @@ export function Navigation() {
                   </a>
                 ))}
                 <div className="px-4 pt-4 border-t border-[#EAEAEA] mt-2">
-                  <button
-                    className="w-full px-6 py-3 bg-[#0B6B3A] text-white rounded-xl hover:bg-[#0F8F4E] transition-colors shadow-lg"
+                  <a
+                    href="#contact"
+                    className="w-full px-6 py-3 bg-[#0B6B3A] text-white rounded-xl hover:bg-[#0F8F4E] transition-colors shadow-lg flex items-center justify-center"
+                    onClick={() => setIsMenuOpen(false)}
                     style={{ fontWeight: 600 }}
                   >
                     Get Started
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>

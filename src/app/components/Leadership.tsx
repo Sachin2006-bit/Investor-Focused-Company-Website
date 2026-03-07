@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import babuImg from "@/assets/babu.png";
 import sujayImg from "@/assets/sujay.jpeg";
 import sachinImg from "@/assets/sachin2.jpeg";
-import akshayImg from "@/assets/akshay.jpeg";
+import akshayImg from "@/assets/AKshayrecent.jpeg";
 
 const leaders = [
   {
