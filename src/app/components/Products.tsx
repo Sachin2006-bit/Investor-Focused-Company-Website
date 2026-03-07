@@ -54,7 +54,7 @@ const products = [
     websiteUrl: "https://www.msfcoin.com/",
   },
   {
-    name: "Linchpin Studio",
+    name: "Linchpin AI Studio",
     tagline: "Original Biblical Web-Series & Faith-Based OTT Entertainment",
     description: "Linchpin Studio is building a scalable faith-tech entertainment ecosystem by producing original biblical web-series designed for global OTT distribution. By merging cinematic excellence with digital platform ownership, we aim to create a sustainable faith-based content network serving audiences worldwide. Our long-term vision includes multi-language productions, franchise storytelling, and global streaming partnerships.",
     image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaW5lbWF0aWMlMjBtb3ZpZSUyMHByb2R1Y3Rpb258ZW58MXx8fHwxNzcxMDQxNzA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -66,7 +66,7 @@ const products = [
     ],
     highlight: "Faith-Based Digital Media",
     reverse: true,
-    websiteUrl: "https://www.msfcoin.com/",
+    websiteUrl: "https://biblewayaistudio.lovable.app/",
   },
   {
     name: "Succession - A Brand of Manakart",

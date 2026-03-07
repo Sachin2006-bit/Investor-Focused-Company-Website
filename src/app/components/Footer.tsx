@@ -14,7 +14,7 @@ const footerLinks = [
       { name: "Bibleway", href: "#bibleway" },
       { name: "ManaKart", href: "#manakart" },
       { name: "Mana Coin", href: "#mana-coin-shoppy-finance" },
-      { name: "Linchpin Studio", href: "#linchpin-studio" },
+      { name: "Linchpin AI Studio", href: "#linchpin-ai-studio" },
       { name: "Succession - A Brand of Manakart", href: "#succession" },
     ],
   },
