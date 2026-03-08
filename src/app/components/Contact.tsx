@@ -70,16 +70,6 @@ export function Contact() {
                   <p className="text-[#111111] font-semibold">info@linchpinsoftsolution.com</p>
                 </div>
               </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#0B6B3A]/10 flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-[#0B6B3A]" />
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500">Call us at</p>
-                  <p className="text-[#111111] font-semibold">+91 74163 93958</p>
-                </div>
-              </div>
             </div>
           </motion.div>
 
