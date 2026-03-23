@@ -84,6 +84,40 @@ export function Services() {
                 </p>
               </div>
             </div>
+
+            {/* Contact Module */}
+            <div className="bg-[#111111] rounded-3xl p-8 text-white mt-2 shadow-xl hover:shadow-[#0B6B3A]/10 transition-shadow">
+              <h4 className="text-xl font-bold mb-6 flex items-center gap-2">
+                Get In Touch With Us
+              </h4>
+              <div className="space-y-4">
+                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
+                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <span className="text-sm">Hyderabad, India</span>
+                </a>
+                <a href="tel:+917416393958" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
+                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <span className="text-sm">+91 7416 393 958</span>
+                </a>
+                <a href="mailto:info@linchpinsoftsolution.com" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
+                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
+                    <Mail className="w-5 h-5" />
+                  </div>
+                  <span className="text-sm break-all">info@linchpinsoftsolution.com</span>
+                </a>
+                <a href="http://www.linchpinsoftsolution.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
+                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
+                    <Globe className="w-5 h-5" />
+                  </div>
+                  <span className="text-sm break-all">www.linchpinsoftsolution.com</span>
+                </a>
+              </div>
+            </div>
+
           </motion.div>
 
 
@@ -270,38 +304,7 @@ export function Services() {
               </div>
             </div>
 
-            {/* Contact Module */}
-            <div className="bg-[#111111] rounded-3xl p-8 text-white mt-2 shadow-xl hover:shadow-[#0B6B3A]/10 transition-shadow">
-              <h4 className="text-xl font-bold mb-6 flex items-center gap-2">
-                Get In Touch With Us
-              </h4>
-              <div className="space-y-4">
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
-                    <MapPin className="w-5 h-5" />
-                  </div>
-                  <span className="text-sm">Hyderabad, India</span>
-                </a>
-                <a href="tel:+917416393958" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <span className="text-sm">+91 7416 393 958</span>
-                </a>
-                <a href="mailto:info@linchpinsoftsolution.com" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
-                    <Mail className="w-5 h-5" />
-                  </div>
-                  <span className="text-sm break-all">info@linchpinsoftsolution.com</span>
-                </a>
-                <a href="http://www.linchpinsoftsolution.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors group">
-                  <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#0B6B3A] transition-colors">
-                    <Globe className="w-5 h-5" />
-                  </div>
-                  <span className="text-sm break-all">www.linchpinsoftsolution.com</span>
-                </a>
-              </div>
-            </div>
+
 
           </motion.div>
 
