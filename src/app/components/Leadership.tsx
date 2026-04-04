@@ -3,6 +3,7 @@ import babuImg from "@/assets/babu.png";
 import sujayImg from "@/assets/sujay.jpeg";
 import sachinImg from "@/assets/sachin2.jpeg";
 import akshayImg from "@/assets/AKshayrecent.jpeg";
+import balaImg from "@/assets/bala.png";
 
 const leaders = [
   {
@@ -18,8 +19,14 @@ const leaders = [
     image: sujayImg,
   },
   {
+    name: "Bala Subramanian K",
+    title: "Technical Director",
+    quote: "Driving technical innovation and strategic execution.",
+    image: balaImg,
+  },
+  {
     name: "Sachin keerthi vasu",
-    title: "CTO",
+    title: "Deputy Technical Director",
     quote: "Engineering excellence at scale, every day.",
     image: sachinImg,
   },
