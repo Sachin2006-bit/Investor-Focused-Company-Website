@@ -21,7 +21,7 @@ const products = [
     ],
     highlight: "Faith-Tech Market Opportunity",
     reverse: false,
-    websiteUrl: "https://bibleway-fe.vercel.app/",
+    websiteUrl: "https://bibleway.io/",
   },
   {
     name: "ManaKart",
