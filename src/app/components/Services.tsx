@@ -18,11 +18,13 @@ import {
   Scale as ScaleIcon, 
   BookOpen, 
   Briefcase,
-  AlertCircle
+  AlertCircle,
+  Laptop,
+  Smartphone
 } from "lucide-react";
 
 export function Services() {
-  const [activeTab, setActiveTab] = useState<"marketing" | "reels" | "policies">("marketing");
+  const [activeTab, setActiveTab] = useState<"marketing" | "reels" | "web_mobile" | "policies">("marketing");
   const [billingCycle, setBillingCycle] = useState<"monthly" | "annual">("monthly");
   const [reelsTrack, setReelsTrack] = useState<"track1" | "track2">("track1");
 
@@ -274,6 +276,16 @@ export function Services() {
               Reel Creation Tiers
             </button>
             <button
+              onClick={() => setActiveTab("web_mobile")}
+              className={`px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 ${
+                activeTab === "web_mobile"
+                  ? "bg-[#0B6B3A] text-white shadow-md"
+                  : "text-gray-600 hover:text-[#0B6B3A] hover:bg-gray-50"
+              }`}
+            >
+              Web & Mobile Services
+            </button>
+            <button
               onClick={() => setActiveTab("policies")}
               className={`px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 ${
                 activeTab === "policies"
@@ -511,6 +523,61 @@ export function Services() {
                   <p className="text-xs text-[#0B6B3A] font-semibold leading-relaxed">
                     💡 <strong>Want more flexibility?</strong> Track 1 (with influencer) and Track 2 (solo) can be mixed inside a custom bulk package. Speak to our project coordinator about hybrid campaign builds.
                   </p>
+                </div>
+              </motion.div>
+            )}
+
+            {activeTab === "web_mobile" && (
+              <motion.div
+                key="web_mobile"
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.4 }}
+                className="max-w-4xl mx-auto"
+              >
+                <div className="bg-white rounded-3xl p-8 md:p-12 border border-gray-100 shadow-sm flex flex-col md:flex-row items-center gap-10">
+                  <div className="flex-1 space-y-6">
+                    <div className="inline-flex p-3 rounded-2xl bg-[#F0F7F4] text-[#0B6B3A]">
+                      <Laptop className="w-8 h-8" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900">Web & Mobile Services</h3>
+                    <p className="text-gray-500 text-sm leading-relaxed">
+                      We engineer high-performance web platforms and mobile applications tailored to your specific operational needs. From enterprise dashboards and e-commerce architectures to sleek iOS & Android consumer apps, our team delivers production-ready digital products.
+                    </p>
+                    <ul className="space-y-3">
+                      <li className="flex items-center gap-2.5 text-xs text-gray-600">
+                        <Check className="w-4 h-4 text-[#0B6B3A] shrink-0" />
+                        <span>Responsive, modern Web Apps (Next.js, React, Node.js)</span>
+                      </li>
+                      <li className="flex items-center gap-2.5 text-xs text-gray-600">
+                        <Check className="w-4 h-4 text-[#0B6B3A] shrink-0" />
+                        <span>Native & Hybrid Mobile Apps (React Native, Flutter)</span>
+                      </li>
+                      <li className="flex items-center gap-2.5 text-xs text-gray-600">
+                        <Check className="w-4 h-4 text-[#0B6B3A] shrink-0" />
+                        <span>Custom API Integrations & Database Architecture</span>
+                      </li>
+                      <li className="flex items-center gap-2.5 text-xs text-gray-600">
+                        <Check className="w-4 h-4 text-[#0B6B3A] shrink-0" />
+                        <span>Cloud Deployments & Serverless Architectures (AWS, Vercel)</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="w-full md:w-80 bg-gray-50 rounded-2xl p-6 border border-gray-100 flex flex-col justify-between text-center md:text-left h-full min-h-[220px]">
+                    <div>
+                      <h4 className="text-sm font-bold text-gray-900 mb-2">Pricing & Scope</h4>
+                      <p className="text-xs text-gray-500 leading-relaxed mb-6">
+                        Because web and app solutions vary greatly based on complexity, integration requirements, and design scope, we provide tailored pricing packages on a per-project basis.
+                      </p>
+                    </div>
+                    <a
+                      href="mailto:info@linchpinsoftsolution.com?subject=Inquiry regarding Web & Mobile Development Services"
+                      className="w-full py-3.5 rounded-xl font-bold text-center block bg-[#0B6B3A] text-white hover:bg-[#08532c] transition-colors shadow-sm"
+                    >
+                      Contact Us for Details
+                    </a>
+                  </div>
                 </div>
               </motion.div>
             )}
